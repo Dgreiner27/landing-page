@@ -22,3 +22,24 @@ header {
   color: #F9FAF8;
   padding: 0 24px 0 24px;
 }
+
+.logo {
+  font-size: 24px;
+}
+
+img {
+  height: auto;
+  max-width: 500px;
+}
+
+.hero {
+  background-color: #1F2937;
+  display: flex;
+  color: #E5E7EB;
+
+}
+.header > h1 {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: bolder;
+}
