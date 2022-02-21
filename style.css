@@ -29,17 +29,49 @@ header {
 
 img {
   height: auto;
-  max-width: 500px;
+  max-width: 350px;
 }
 
 .hero {
   background-color: #1F2937;
   display: flex;
   color: #E5E7EB;
+  padding: 24px;
+  gap: 8px;
 
 }
 .header > h1 {
   color: #F9FAF8;
   font-size: 48px;
   font-weight: bolder;
+}
+button {
+  background-color: #3882F6;
+  border-color: #3882F6;
+  color: #E5E7EB;
+  border-radius: 8%;
+  padding: 4px 8px 4px 8px;
+}
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight:bolder;
+}
+.tile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+.tiles {
+display: flex;
+flex-flow: column wrap;
+}
+
+.tiles > img {
+  width: 150px;
+  height: 150px;
 }
